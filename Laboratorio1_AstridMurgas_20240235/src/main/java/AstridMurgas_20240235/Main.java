@@ -36,7 +36,7 @@ public class Main {
                         // Validación para asegurarse de que se ingrese un número entero
                         while (!scan.hasNextInt()) {
                             System.out.println("Por favor ingrese un número válido para el stock.");
-                            scan.next();  // Limpiar el buffer
+                            scan.next();
                         }
                         int newStock = scan.nextInt();
                         productos.put(produ, newStock);
